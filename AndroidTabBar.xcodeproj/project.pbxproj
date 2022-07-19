@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		719F3A83A714D3693CC9E446 /* Pods_AndroidTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF98DC9B19DA96BA1B452921 /* Pods_AndroidTabBar.framework */; };
+		F5CE91FD28872056009DCE2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE91FC28872056009DCE2B /* AppDelegate.swift */; };
+		F5CE91FF28872056009DCE2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE91FE28872056009DCE2B /* SceneDelegate.swift */; };
+		F5CE920128872056009DCE2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE920028872056009DCE2B /* ViewController.swift */; };
+		F5CE920428872056009DCE2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CE920228872056009DCE2B /* Main.storyboard */; };
+		F5CE920628872057009DCE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CE920528872057009DCE2B /* Assets.xcassets */; };
+		F5CE920928872057009DCE2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CE920728872057009DCE2B /* LaunchScreen.storyboard */; };
+		F5CE921328872948009DCE2B /* ViewOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE921228872948009DCE2B /* ViewOneViewController.swift */; };
+		F5CE921528872956009DCE2B /* ViewTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE921428872956009DCE2B /* ViewTwoViewController.swift */; };
+		F5CE921728872960009DCE2B /* ViewThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE921628872960009DCE2B /* ViewThreeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B033DF9AA4556483A46AB98 /* Pods-AndroidTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndroidTabBar.debug.xcconfig"; path = "Target Support Files/Pods-AndroidTabBar/Pods-AndroidTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		AF98DC9B19DA96BA1B452921 /* Pods_AndroidTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AndroidTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06656A6F38CC1FDDBF1F044 /* Pods-AndroidTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AndroidTabBar.release.xcconfig"; path = "Target Support Files/Pods-AndroidTabBar/Pods-AndroidTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		F5CE91F928872056009DCE2B /* AndroidTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CE91FC28872056009DCE2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5CE91FE28872056009DCE2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5CE920028872056009DCE2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5CE920328872056009DCE2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5CE920528872057009DCE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5CE920828872057009DCE2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5CE920A28872057009DCE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CE921228872948009DCE2B /* ViewOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOneViewController.swift; sourceTree = "<group>"; };
+		F5CE921428872956009DCE2B /* ViewTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTwoViewController.swift; sourceTree = "<group>"; };
+		F5CE921628872960009DCE2B /* ViewThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThreeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CE91F628872056009DCE2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719F3A83A714D3693CC9E446 /* Pods_AndroidTabBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		253DB8C9AB83F1D6C2D3A783 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B033DF9AA4556483A46AB98 /* Pods-AndroidTabBar.debug.xcconfig */,
+				D06656A6F38CC1FDDBF1F044 /* Pods-AndroidTabBar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7505159243449A2B30EF5506 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF98DC9B19DA96BA1B452921 /* Pods_AndroidTabBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CE91F028872056009DCE2B = {
+			isa = PBXGroup;
+			children = (
+				F5CE91FB28872056009DCE2B /* AndroidTabBar */,
+				F5CE91FA28872056009DCE2B /* Products */,
+				253DB8C9AB83F1D6C2D3A783 /* Pods */,
+				7505159243449A2B30EF5506 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CE91FA28872056009DCE2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CE91F928872056009DCE2B /* AndroidTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CE91FB28872056009DCE2B /* AndroidTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F5CE91FC28872056009DCE2B /* AppDelegate.swift */,
+				F5CE91FE28872056009DCE2B /* SceneDelegate.swift */,
+				F5CE920028872056009DCE2B /* ViewController.swift */,
+				F5CE920228872056009DCE2B /* Main.storyboard */,
+				F5CE920528872057009DCE2B /* Assets.xcassets */,
+				F5CE920728872057009DCE2B /* LaunchScreen.storyboard */,
+				F5CE920A28872057009DCE2B /* Info.plist */,
+				F5CE921228872948009DCE2B /* ViewOneViewController.swift */,
+				F5CE921428872956009DCE2B /* ViewTwoViewController.swift */,
+				F5CE921628872960009DCE2B /* ViewThreeViewController.swift */,
+			);
+			path = AndroidTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CE91F828872056009DCE2B /* AndroidTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CE920D28872058009DCE2B /* Build configuration list for PBXNativeTarget "AndroidTabBar" */;
+			buildPhases = (
+				D49B74B9594BD726517ED344 /* [CP] Check Pods Manifest.lock */,
+				F5CE91F528872056009DCE2B /* Sources */,
+				F5CE91F628872056009DCE2B /* Frameworks */,
+				F5CE91F728872056009DCE2B /* Resources */,
+				DECC1E8D7AC80EC908B60621 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndroidTabBar;
+			productName = AndroidTabBar;
+			productReference = F5CE91F928872056009DCE2B /* AndroidTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CE91F128872056009DCE2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F5CE91F828872056009DCE2B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F5CE91F428872056009DCE2B /* Build configuration list for PBXProject "AndroidTabBar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5CE91F028872056009DCE2B;
+			productRefGroup = F5CE91FA28872056009DCE2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CE91F828872056009DCE2B /* AndroidTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CE91F728872056009DCE2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CE920928872057009DCE2B /* LaunchScreen.storyboard in Resources */,
+				F5CE920628872057009DCE2B /* Assets.xcassets in Resources */,
+				F5CE920428872056009DCE2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D49B74B9594BD726517ED344 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AndroidTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECC1E8D7AC80EC908B60621 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AndroidTabBar/Pods-AndroidTabBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AndroidTabBar/Pods-AndroidTabBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AndroidTabBar/Pods-AndroidTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CE91F528872056009DCE2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CE920128872056009DCE2B /* ViewController.swift in Sources */,
+				F5CE921528872956009DCE2B /* ViewTwoViewController.swift in Sources */,
+				F5CE921728872960009DCE2B /* ViewThreeViewController.swift in Sources */,
+				F5CE91FD28872056009DCE2B /* AppDelegate.swift in Sources */,
+				F5CE921328872948009DCE2B /* ViewOneViewController.swift in Sources */,
+				F5CE91FF28872056009DCE2B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5CE920228872056009DCE2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CE920328872056009DCE2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5CE920728872057009DCE2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CE920828872057009DCE2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5CE920B28872057009DCE2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5CE920C28872057009DCE2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CE920E28872058009DCE2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B033DF9AA4556483A46AB98 /* Pods-AndroidTabBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9K62WKNJMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AndroidTabBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.murerwa.AndroidTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5CE920F28872058009DCE2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06656A6F38CC1FDDBF1F044 /* Pods-AndroidTabBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9K62WKNJMY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AndroidTabBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.murerwa.AndroidTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CE91F428872056009DCE2B /* Build configuration list for PBXProject "AndroidTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CE920B28872057009DCE2B /* Debug */,
+				F5CE920C28872057009DCE2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CE920D28872058009DCE2B /* Build configuration list for PBXNativeTarget "AndroidTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CE920E28872058009DCE2B /* Debug */,
+				F5CE920F28872058009DCE2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5CE91F128872056009DCE2B /* Project object */;
+}
